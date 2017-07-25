@@ -4,8 +4,8 @@
 ```
 文件位置：/pages/strategic
 ```
-### 策略页面浏览
-1)策略管理页面通过接口`/cloudDiagnosis/getCustomDiagnosis/tree`和`/v2/diagnosis/get/moduleStatus/173`获取到左侧树形结构和右侧诊断数据。将数据放在redux中管理
+### 策略页面代码流程设计
+1)策略管理页面通过接口`/cloudDiagnosis/getCustomDiagnosis/tree`和`/v2/diagnosis/get/moduleStatus/173`获取到左侧树形结构和右侧诊断数据。将数据放在redux中管理。
  
 2)使用`StrategicManageContainer`和`TreeContainer`(/pages/strategic/containers)的容器组件绑定redux中的数据渲染component
 
