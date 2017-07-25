@@ -1,8 +1,8 @@
 # 用户正常登录模块代码流程设计
 
-用户登录模块通过 `LoginForm`组件（/pages/....）呈现页面。
+用户登录模块通过 `LoginForm`组件（/pages/login/components）呈现页面。
 
-通过`container`的中间容器...Container\(/...\) 连接`redux`管理的数据（参考 redux全局变量定义）。
+通过`container`的中间容器`LoginContainer`(/pages/login/containers) 连接`redux`管理的数据  [参考 redux全局变量定义](/data-structure/reduxquan-ju-shu-ju-ding-yi.md)。
 
 并且使用 `/login/<userId>` 接口请求数据，并使用 `doLogin` 方法封装。
 
