@@ -1,9 +1,8 @@
 # 策略管理模块
 
-文件位置：
 
 ```
-/pages/..
+文件位置：/pages/strategic
 ```
 
 策略管理页面通过接口`/cloudDiagnosis/getCustomDiagnosis/tree`和`/v2/diagnosis/get/moduleStatus/173`获取到左侧树形结构和右侧诊断数据。  
